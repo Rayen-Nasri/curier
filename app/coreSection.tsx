@@ -90,7 +90,7 @@ export const CoreSection = () => {
                                             <input
                                                 type="email"
                                                 placeholder="example@gmail.com"
-                                                className="w-full pl-10 pr-3 py-2 border border-[#A9A392] rounded-md focus:outline-none focus:ring-1 focus:ring-[#A9A392]"
+                                                className="w-full pl-10 pr-3 py-2 border-2 border-[#A9A392] rounded-md focus:outline-none focus:ring-1 focus:ring-[#A9A392]"
                                             />
                                         </div>
                                     </motion.div>
@@ -105,7 +105,7 @@ export const CoreSection = () => {
                                             <input
                                                 type={showPassword ? "text" : "password"}
                                                 placeholder="Your Password"
-                                                className="w-full pl-10 pr-10 py-2 border border-[#A9A392] rounded-md focus:outline-none focus:ring-1 focus:ring-[#A9A392]"
+                                                className="w-full pl-10 pr-10 py-2 border-2 border-[#A9A392] rounded-md focus:outline-none focus:ring-1 focus:ring-[#A9A392]"
                                             />
                                             <button
                                                 type="button"
@@ -147,7 +147,7 @@ export const CoreSection = () => {
                                         whileHover={{ scale: 1.02 }}
                                         whileTap={{ scale: 0.98 }}
                                         type="submit"
-                                        className="w-full font-medium bg-[#D3D2CE] text-black py-2 px-4 rounded-md hover:bg-[#c5c4c0]"
+                                        className="w-full font-medium bgg text-black py-2 px-4 rounded-md "
                                     >
                                         Login
                                     </motion.button>

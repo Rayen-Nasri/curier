@@ -18,3 +18,9 @@ background: url("../public/gb.png");}
   font-weight: 500;
   font-style: normal;
 }
+
+.bgg{
+  background: #D5CEB8;
+  background: linear-gradient(44deg, rgba(213, 206, 184, 1) 0%, rgba(184, 184, 184, 1) 100%);
+
+}
