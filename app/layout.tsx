@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "curier-bsx3.vercel.app",};
+  title: "curier",};
 
 export default function RootLayout({
   children,
