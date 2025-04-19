@@ -44,21 +44,21 @@ export const CoreSection = () => {
             className="border-3 border-in border-[#F5F4F4]/36 bg-[#D3D2CE]/65 rounded-[10px] p-4 md:p-0"
         >
             <div className="lg:grid lg:grid-cols-2 lg:grid-rows-1 md:gap-4 ">
-                <div className="hidden lg:block col-start-2 row-start-1 grad rounded-[10px] m-4">
+                <div className="hidden lg:block grad rounded-[10px] m-4">
                     <Image src={rightSide} alt="rightSide" className="w-full h-full p-5" />
                 </div>
-                <div className="col-start-1 row-start-1">
+                <div className="lg:col-start-1 lg:row-start-1">
                     <motion.div
                         variants={containerVariants}
                         initial="hidden"
                         animate="visible"
                     >
-                        <motion.h1 variants={itemVariants} className="marhey text-[#A8A290]/70 text-[33px] sm:pl-5 pt-5 font-medium mb-4">
+                        <motion.h1 variants={itemVariants} className=" text-[#A8A290]/70 text-[33px] sm:pl-5 pt-5 font-medium mb-4">
                             Curier
                         </motion.h1>
                     </motion.div>
                     <motion.div 
-                        className=" sm:mx-23 md:mx-40 lg:mx-10 space-y-5"
+                        className=" sm:mx-23 md:mx-40 lg:mx-10 space-y-6"
                         variants={containerVariants}
                         initial="hidden"
                         animate="visible"

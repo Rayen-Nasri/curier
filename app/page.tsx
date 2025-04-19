@@ -9,7 +9,7 @@ const Core = dynamic(() => import('./coreSection').then(mod => mod.CoreSection),
 export default function Home() {
   return (
     <div className="flex items-center justify-center  h-screen">
-    
+      
       <Core />
     </div>
 
